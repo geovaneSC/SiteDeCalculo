@@ -1,0 +1,27 @@
+.img-text{
+    display: flex;
+}
+
+.text-ajuste{
+    text-align: center;
+    padding: 1%;
+    margin-top: 5%;
+}
+
+@media (max-width: 768px) {
+    .img-text {
+        display: block;
+        margin-left: 10%;
+    }
+    .text-ajuste{
+        text-align: center;
+        padding: 1%;
+        margin-left: -10%;
+    }
+    .img-ajuste{
+        margin-left: 10%;
+    }
+    .vido-center{
+        margin-left: 5%;
+    }
+}
